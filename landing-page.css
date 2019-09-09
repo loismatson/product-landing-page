@@ -66,6 +66,7 @@ p {
   width: 50%;
   margin-left: 300px;
   padding: 30px;
+  border: 1px solid red;
 }
 
 .icon {
@@ -73,12 +74,14 @@ p {
   align-items: flex-start;
   margin-right: 30px;
   padding-top: 15px;
+  border: 1px solid blue;
 }
 
 .guarantee {
   display: flex block;
   justify-content: flex-start;
   flex-direction: column;
+  border: 1px solid green;
 }
 
 #subscribe {
@@ -90,9 +93,9 @@ p {
 
 @media screen and (max-width: 600px) {
   .header-container {
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
   }
 }
 
